@@ -12,11 +12,11 @@ User.destroy_all
 @lenny = User.create!(first_name: 'Lenny', last_name: 'Kai', email: 'lenny@email.com', password: '123456')
 
 
-@city1 = City.create!(Location: 'Dubai', image: 'https://i.imgur.com/iwZfiQC.png', user:@johnny)
-@city2 = City.create!(Location: 'Los Angeles', image: 'https://i.imgur.com/oPwqrTl.png', user:@johnny)
-@city3 = City.create!(Location: 'London', image: 'https://i.imgur.com/DgGMgAv.png', user:@johnny)
-@city4 = City.create!(Location: 'New York City', image: 'https://i.imgur.com/pkJGEiT.png', user:@johnny)
-@city5 = City.create!(Location: 'Paris', image: 'https://i.imgur.com/CxE6epu.png', user:@johnny)
+@city1 = City.create!(location: 'Dubai', image: 'https://i.imgur.com/iwZfiQC.png', user:@johnny)
+@city2 = City.create!(location: 'Los Angeles', image: 'https://i.imgur.com/oPwqrTl.png', user:@johnny)
+@city3 = City.create!(location: 'London', image: 'https://i.imgur.com/DgGMgAv.png', user:@johnny)
+@city4 = City.create!(location: 'New York City', image: 'https://i.imgur.com/pkJGEiT.png', user:@johnny)
+@city5 = City.create!(location: 'Paris', image: 'https://i.imgur.com/CxE6epu.png', user:@johnny)
 
 puts "#{User.count} users created"
 puts "#{City.count} cities created"
