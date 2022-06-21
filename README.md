@@ -3,22 +3,13 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+## Completed
 
-* Ruby version
+- API key is working
+- MedFi/HiFi wireframes completed
 
-* System dependencies
+##Things to cover:
 
-* Configuration
+- Need to take another look at current backend build. Authentication, GET/SHOW requests working.
+- Think about what functionality should be present on frontend
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
