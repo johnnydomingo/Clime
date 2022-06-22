@@ -1,5 +1,5 @@
 class CitiesController < ApplicationController
-  before_action :authorize_request, :set_city, only: [:show, :create]
+  before_action :set_city, only: [:show, :create]
 
   # GET /cities
   def index
@@ -10,19 +10,19 @@ class CitiesController < ApplicationController
 
   # GET /cities/1
   def show
-    render json: @city, except: :user_id
+    render json: @city
   end
 
   # POST /cities
-  def create
-    @city = City.new(city_params)
-    @city.user = @current_user
-    if @city.save
-      render json: @city, status: :created, location: @city
-    else
-      render json: @city.errors, status: :unprocessable_entity
-    end
-  end
+  # def create
+  #   @city = City.new(city_params)
+  #   @city.user = @current_user
+  #   if @city.save
+  #     render json: @city, status: :created, location: @city
+  #   else
+  #     render json: @city.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # # PATCH/PUT /cities/1
   # def update
@@ -46,6 +46,6 @@ class CitiesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def city_params
-      params.require(:city).permit(:location, :temperature, :image, :user_id)
+      params.require(:city).permit(:location, :temperature, :image)
     end
 end
