@@ -1,11 +1,11 @@
 // Dependencies
 import React from "react";
-// import { getAllCities } from "../services/city";
+
 
 export default function PopularCities({cities}) {
 
   return (
-    <div>
+    <div className="home-feed">
       <section className="city-card">
         <div className="popular-searches">
           {cities?.map((city) => (
