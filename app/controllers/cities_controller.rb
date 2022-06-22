@@ -10,7 +10,7 @@ class CitiesController < ApplicationController
 
   # GET /cities/1
   def show
-    render json: @city, except: :user_id
+    render json: @city
   end
 
   # POST /cities
@@ -46,6 +46,6 @@ class CitiesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def city_params
-      params.require(:city).permit(:location, :temperature, :image, :user_id)
+      params.require(:city).permit(:location, :temperature, :image)
     end
 end
