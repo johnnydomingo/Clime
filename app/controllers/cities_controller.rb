@@ -1,5 +1,5 @@
 class CitiesController < ApplicationController
-  before_action :authorize_request, :set_city, only: [:show, :create]
+  before_action :set_city, only: [:show, :create]
 
   # GET /cities
   def index
