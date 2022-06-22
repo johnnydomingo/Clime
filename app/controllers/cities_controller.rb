@@ -14,15 +14,15 @@ class CitiesController < ApplicationController
   end
 
   # POST /cities
-  def create
-    @city = City.new(city_params)
-    @city.user = @current_user
-    if @city.save
-      render json: @city, status: :created, location: @city
-    else
-      render json: @city.errors, status: :unprocessable_entity
-    end
-  end
+  # def create
+  #   @city = City.new(city_params)
+  #   @city.user = @current_user
+  #   if @city.save
+  #     render json: @city, status: :created, location: @city
+  #   else
+  #     render json: @city.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # # PATCH/PUT /cities/1
   # def update
