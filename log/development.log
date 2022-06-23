@@ -1894,3 +1894,1348 @@ Processing by CitiesController#index as HTML
 Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1137)
 
 
+Started GET "/cities" for ::1 at 2022-06-22 18:05:08 -0400
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 10.6ms | ActiveRecord: 19.2ms | Allocations: 8252)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:05:09 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1139)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:06:09 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (7.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 7.4ms | Allocations: 1157)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:06:10 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:06:49 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.2ms | Allocations: 1156)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:06:49 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 182ms (Views: 178.0ms | ActiveRecord: 3.6ms | Allocations: 1140)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:07:00 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1156)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:07:00 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.8ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:07:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.9ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:07:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 2.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:09:32 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:09:35 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (6.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 27.9ms | ActiveRecord: 6.6ms | Allocations: 1156)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:09:50 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:09:53 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:10:39 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 18:10:39 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.4ms | Allocations: 1959)
+
+
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 61ms (Views: 45.1ms | ActiveRecord: 15.9ms | Allocations: 5626)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:10:55 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:17:30 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 13.8ms | Allocations: 4258)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:17:30 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 2.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:17:34 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:17:53 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:21:10 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:21:11 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:35:29 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 9.2ms | Allocations: 4283)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:35:34 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:36:41 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:36:45 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:36:45 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:44:24 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 30.7ms | Allocations: 4257)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:44:24 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.9ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:47:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:47:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:47:45 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 18:47:45 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:00:33 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 26.0ms | Allocations: 4259)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:00:33 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:04:16 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (10.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 18.6ms | ActiveRecord: 10.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:04:16 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:04:28 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:04:28 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:05:02 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 1.0ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:05:02 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.8ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:05:15 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:05:15 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:06:46 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 31.6ms | ActiveRecord: 3.0ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:06:46 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (5.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 11.0ms | ActiveRecord: 5.7ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:06:56 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 1.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:06:56 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 2.8ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:08:28 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 170ms (Views: 169.0ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:08:28 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:18:11 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 98ms (Views: 88.5ms | ActiveRecord: 22.7ms | Allocations: 4256)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:18:11 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:18:19 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 1.1ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:18:19 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 1.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:19:04 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:19:04 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:20:13 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:20:13 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:20:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:20:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:20:36 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 2.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:20:36 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:21:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (16.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 63ms (Views: 46.2ms | ActiveRecord: 16.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:21:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:21:35 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 1.9ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:21:35 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:22:52 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.7ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:22:52 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 2.0ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:28:53 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 105ms (Views: 104.8ms | ActiveRecord: 7.8ms | Allocations: 4256)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:28:53 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 2.1ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:29:30 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 3.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:29:30 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (19.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 6.0ms | ActiveRecord: 19.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:30:27 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 132ms (Views: 131.7ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:30:27 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.2ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:30:44 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:30:44 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.2ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:32:57 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:32:57 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:33:08 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:33:08 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:37:38 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 19:37:38 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (4.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 4.4ms | Allocations: 1731)
+
+
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 59ms (Views: 37.5ms | ActiveRecord: 21.5ms | Allocations: 5617)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:40:09 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 19:40:09 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.7ms | Allocations: 1172)
+
+
+  [1m[36mCity Load (25.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 5.6ms | ActiveRecord: 25.2ms | Allocations: 2731)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:44:09 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.8ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:44:38 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 19:44:38 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (29.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 49ms (Views: 18.5ms | ActiveRecord: 29.9ms | Allocations: 1821)
+
+
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.3ms | Allocations: 2442)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:44:39 -0400
+Started GET "/cities" for ::1 at 2022-06-22 19:44:39 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 3.5ms | Allocations: 1248)
+
+
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.4ms | Allocations: 2442)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:44:42 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:44:53 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 1.9ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:45:07 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 19:45:07 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (14.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 33.8ms | ActiveRecord: 14.3ms | Allocations: 1172)
+
+
+  [1m[36mCity Load (17.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 64ms (Views: 47.2ms | ActiveRecord: 17.0ms | Allocations: 3144)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:45:08 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 1.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:46:27 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:47:00 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:47:21 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (5.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 5.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:47:31 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:47:56 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (11.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 36.4ms | ActiveRecord: 11.0ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:48:15 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.0ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:48:33 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.3ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:48:55 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:48:56 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:49:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (4.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 16.0ms | ActiveRecord: 4.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:49:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.7ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:49:05 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:49:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:50:39 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 19:50:39 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (78.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 127ms (Views: 48.5ms | ActiveRecord: 78.1ms | Allocations: 2072)
+
+
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 194ms (Views: 172.3ms | ActiveRecord: 21.9ms | Allocations: 5528)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:50:44 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:50:49 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.9ms | ActiveRecord: 3.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:51:29 -0400
+Started GET "/cities" for ::1 at 2022-06-22 19:51:29 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 1418)
+
+
+  [1m[36mCity Load (2.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 2.2ms | Allocations: 2442)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:54:25 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.3ms | Allocations: 1146)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:54:25 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.6ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:57:01 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:57:05 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 1.8ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:57:22 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 2.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:57:27 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 14.7ms | ActiveRecord: 3.7ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:57:31 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 1.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 19:57:38 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (12.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 28.9ms | ActiveRecord: 12.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:00:44 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:02:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:06:15 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:06:15 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.8ms | Allocations: 1499)
+
+
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 15.7ms | ActiveRecord: 23.7ms | Allocations: 5563)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:06:17 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 2.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:06:20 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:06:28 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 1.0ms | Allocations: 1138)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:08:58 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:08:58 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.9ms | Allocations: 1191)
+
+
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 76ms (Views: 73.9ms | ActiveRecord: 1.2ms | Allocations: 2686)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:09:14 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:10:22 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:10:22 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.4ms | Allocations: 1172)
+
+
+  [1m[36mCity Load (5.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 65ms (Views: 59.8ms | ActiveRecord: 5.2ms | Allocations: 2685)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:11:24 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:11:24 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 2.4ms | Allocations: 1461)
+
+
+  [1m[36mCity Load (2.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 2.0ms | Allocations: 2407)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:16:17 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:16:17 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 1.0ms | Allocations: 1283)
+
+
+  [1m[36mCity Load (21.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 38ms (Views: 15.5ms | ActiveRecord: 21.9ms | Allocations: 2442)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:16:51 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:16:51 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.3ms | Allocations: 1713)
+
+
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.6ms | Allocations: 2204)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:17:20 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:17:20 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.3ms | Allocations: 1453)
+
+
+  [1m[36mCity Load (2.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 2.6ms | Allocations: 2396)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:18:04 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:18:04 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.5ms | Allocations: 1180)
+
+
+  [1m[36mCity Load (9.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 107ms (Views: 97.3ms | ActiveRecord: 9.4ms | Allocations: 2548)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:18:28 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:18:28 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 105ms (Views: 104.7ms | ActiveRecord: 0.2ms | Allocations: 1847)
+
+
+  [1m[36mCity Load (3.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 101ms (Views: 97.2ms | ActiveRecord: 3.7ms | Allocations: 2443)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:19:50 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:19:50 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (5.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 11.0ms | ActiveRecord: 5.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:20:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 1.1ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:20:03 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:20:50 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:20:50 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:22:22 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:22:22 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:22:22 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:25:43 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:26:47 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 1.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:26:51 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:26:53 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (9.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 23.2ms | ActiveRecord: 9.9ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:26:59 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:27:39 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.4ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:28:20 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.2ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:33:03 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:33:03 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 71ms (Views: 63.9ms | ActiveRecord: 1.6ms | Allocations: 1721)
+
+
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 125ms (Views: 83.6ms | ActiveRecord: 40.2ms | Allocations: 5617)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:34:17 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:34:17 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.4ms | Allocations: 1602)
+
+
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.3ms | Allocations: 2562)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:38:43 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:38:43 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (6.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[36mCity Load (6.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 13.3ms | ActiveRecord: 6.4ms | Allocations: 2286)
+
+
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 6.0ms | Allocations: 2204)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:40:12 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:40:12 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (23.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[36mCity Load (21.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 143ms (Views: 119.3ms | ActiveRecord: 23.2ms | Allocations: 2286)
+
+
+Completed 200 OK in 141ms (Views: 119.2ms | ActiveRecord: 21.7ms | Allocations: 2204)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:43:19 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:43:19 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.4ms | Allocations: 1302)
+
+
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 1.2ms | Allocations: 2442)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:45:06 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:45:06 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (7.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 20.1ms | ActiveRecord: 7.9ms | Allocations: 1414)
+
+
+  [1m[36mCity Load (4.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 49ms (Views: 43.9ms | ActiveRecord: 4.8ms | Allocations: 2442)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:46:08 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:46:08 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.4ms | Allocations: 1172)
+
+
+  [1m[36mCity Load (9.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 18.9ms | ActiveRecord: 9.4ms | Allocations: 2719)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:46:39 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:46:39 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
+  [1m[36mCity Load (3.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 67ms (Views: 62.8ms | ActiveRecord: 3.8ms | Allocations: 3117)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:49:39 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:49:39 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 1.2ms | Allocations: 1602)
+
+
+Completed 200 OK in 27ms (Views: 22.0ms | ActiveRecord: 1.1ms | Allocations: 2481)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:52:08 -0400
+Started GET "/cities" for ::1 at 2022-06-22 20:52:08 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms | Allocations: 2411)
+
+
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.3ms | Allocations: 2396)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:55:21 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:55:21 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (2.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 2.6ms | Allocations: 1874)
+
+
+  [1m[36mCity Load (8.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 27.1ms | ActiveRecord: 8.2ms | Allocations: 2443)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 20:56:47 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 20:56:47 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.7ms | Allocations: 1172)
+
+
+  [1m[36mCity Load (10.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 17.2ms | ActiveRecord: 10.7ms | Allocations: 2547)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 21:03:38 -0400
+Started GET "/cities" for ::1 at 2022-06-22 21:03:38 -0400
+Processing by CitiesController#index as HTML
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+  [1m[36mCity Load (1.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Completed 200 OK in 134ms (Views: 111.2ms | ActiveRecord: 57.2ms | Allocations: 7622)
+
+
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 127ms (Views: 124.2ms | ActiveRecord: 53.7ms | Allocations: 8754)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 21:10:37 -0400
+Processing by CitiesController#index as HTML
+Started GET "/cities" for ::1 at 2022-06-22 21:10:37 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (4.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 121ms (Views: 118.6ms | ActiveRecord: 55.0ms | Allocations: 6992)
+
+
+  [1m[36mCity Load (5.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 191ms (Views: 190.3ms | ActiveRecord: 71.1ms | Allocations: 9131)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 21:12:25 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 21:12:26 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1137)
+
+
+Started GET "/cities" for ::1 at 2022-06-22 21:12:29 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.6ms | Allocations: 1137)
+
+
