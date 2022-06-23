@@ -42,7 +42,7 @@ export default function PopularCities({ cities }) {
                 id="city-skyline"
                 src={city.image}
                 alt="skyline"
-              />
+                />
             </div>
           ))}
         </div>
