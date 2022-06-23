@@ -1,4 +1,5 @@
 import "../css/CityWeather.css";
+
 export default function CityWeather({ data }) {
   return (
     <div className="container">
@@ -17,10 +18,9 @@ export default function CityWeather({ data }) {
         </div>
         <div className="description">
           {data.weather ? <p>{data.weather[0].main}</p> : null}
-          {data.weather ? <p>{data.weather[0].icon}</p> : null}
         </div>
       </div>
-      {data.name != undefined && (
+      {data.name !== undefined && 
         <div className="left">
           <div className="feels">
             {data.main ? <p>{data.main.feels_like.toFixed()}°F</p> : null}
@@ -51,9 +51,9 @@ export default function CityWeather({ data }) {
               {data.main ? <p>{data.main.temp_max.toFixed()}°F</p> : null}
               <p>High</p>
             </div>
-          </div>
-        </div>
-      )}
+      </div>
+  </div>
+  } 
     </div>
   );
 }
