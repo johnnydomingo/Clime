@@ -10,5 +10,5 @@ For the front-end, I utilized the Open Weather Map API to pull real-time data to
 
 Given more time, I am confident I could have figured out what the issue is. The challenges I ran into were very new to me and took a lot of time to sift through. I have learned a lot during this assessment, including what I already knew and things I need to spend more time on.  
 
-Figma Wireframe: https://www.figma.com/file/q0oAAXjxhvcsVtPXwAsEdr/Clime?node-id=0%3A1
-Heroku App: https://clime-api.herokuapp.com/cities
+- Figma Wireframe: https://www.figma.com/file/q0oAAXjxhvcsVtPXwAsEdr/Clime?node-id=0%3A1
+- Heroku App: https://clime-api.herokuapp.com/cities
