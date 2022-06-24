@@ -1,59 +1,47 @@
 import "../css/CityWeather.css";
+import backgrounds from "../assets/backgrounds.jpg";
 
 export default function CityWeather({ data }) {
   return (
     <div className="container">
-      <div className="right">
+      <div className="left-column">
         <div className="location">
-          <p>{data.name}</p>
-          {data.sys ? <p>{data.sys.country}</p> : null}
+          <p className="data-name">{data.name}</p>
+          {data.sys ? <p className="data-country">{data.sys.country}</p> : null}
         </div>
-        <div className="local-time">
-          {/* convert from UTC to local time */}
-          {/* https://bobbyhadz.com/blog/javascript-convert-utc-to-local-time */}
-          {data.dt ? <p>Local Time | {data.dt}</p> : null}
-        </div>
+
         <div className="temp">
           {data.main ? <h2>{data.main.temp.toFixed()}°F</h2> : null}
         </div>
         <div className="description">
-          {data.weather ? <p>{data.weather[0].main}</p> : null}
+          {data.weather ? <p className="type">{data.weather[0].main}</p> : null}
         </div>
       </div>
-      {data.name !== undefined && 
-        <div className="left">
+      {data.name !== undefined && (
+        <div className="right-column">
           <div className="feels">
-            {data.main ? <p>{data.main.feels_like.toFixed()}°F</p> : null}
-            <p>Feels like</p>
+            <p className="label">Feels like</p>
+            {data.main ? <p id="info">{data.main.feels_like.toFixed()}°F</p> : null}
           </div>
           <div className="humidity">
-            {data.main ? <p>{data.main.humidity}%</p> : null}
-            <p>Humidity</p>
+            <p className="label">Humidity</p>
+            {data.main ? <p id="info">{data.main.humidity}%</p> : null}
           </div>
           <div className="wind">
-            {data.wind ? <p>{data.wind.speed.toFixed()} mph</p> : null}
-            <p>Wind Speed</p>
+            <p className="label">Wind Speed</p>
+            {data.wind ? <p id="info">{data.wind.speed.toFixed()} mph</p> : null}
           </div>
-          <div className="bottom">
-            <div className="sunrise">
-              {data.sys ? <p>{data.sys.sunrise}</p> : null}
-              <p>Sunrise</p>
-            </div>
-            <div className="sunset">
-              {data.sys ? <p>{data.sys.sunset}</p> : null}
-              <p>Sunset</p>
-            </div>
-            <div className="temp-min">
-              {data.main ? <p>{data.main.temp_min.toFixed()}°F</p> : null}
-              <p>Low</p>
-            </div>
-            <div className="temp-max">
-              {data.main ? <p>{data.main.temp_max.toFixed()}°F</p> : null}
-              <p>High</p>
-            </div>
-      </div>
-  </div>
-  } 
+
+          <div className="temp-min">
+            <p className="label">Low</p>
+            {data.main ? <p id="info">{data.main.temp_min.toFixed()}°F</p> : null}
+          </div>
+          <div className="temp-max">
+            <p className="label">High</p>
+            {data.main ? <p id="info">{data.main.temp_max.toFixed()}°F</p> : null}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -18,3 +18,54 @@
   transform-origin: 0 0;
   transform: rotate(270deg);
 } */
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+}
+.location .data-name{
+  font-size: 40px;
+  font-weight: 500;
+}
+.location .data-country {
+  font-size: 34px;
+}
+.description .type {
+  font-size: 36px;
+  margin-top: 4rem;
+}
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.label {
+  margin-left: 2.5rem;
+}
+#info {
+  font-size: 36px;
+  margin-left: 3.5rem;
+  /* margin-bottom: 10px; */
+}
+.feels{
+  display: flex;
+  align-items: center;
+}
+.humidity {
+  display: flex;
+  align-items: center;
+}
+.wind{
+  display: flex;
+  align-items: center;
+}
+.temp-min{
+  display: flex;
+  align-items: center;
+}
+.temp-max{
+  display: flex;
+  align-items: center;
+}
