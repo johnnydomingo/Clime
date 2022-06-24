@@ -1,7 +1,8 @@
-import api from "./apiConfig"; 
+// Services
+import api from "./apiConfig";
 
 export const getAllCities = async () => {
-  const resp = await api.get('/cities');
+  const resp = await api.get("/cities");
   return resp.data;
 };
 

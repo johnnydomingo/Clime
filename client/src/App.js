@@ -1,38 +1,30 @@
-import "./App.css";
+// Dependencies
 import { Route, Routes, useNavigate } from "react-router-dom";
-// import { Navigate, Link } from "react-router-dom";
 import { React, useState, useEffect } from "react";
-// import { getAllCities } from "./services/city";
-// import PopularCities from "./components/PopularCities";
-// import CityWeather from "./components/CityWeather";
+import axios from "axios";
+
+// Screens/Services
+import { getAllCities } from "./services/city";
 import Results from "./screens/Results";
 import Home from "./screens/Home";
-import axios from "axios";
+
+// Components
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [cities, setCities] = useState([]);
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
-  // const [name, setName] = useState([]);
 
-  // const URL = 'https://api.nationalize.io/?name=brad';
-  // const getNames = async () => {
-  //   // axios.get(URL).then((response) => {
-  //   //   setName(response.data);
-  //     // console.log(response)
-  //   })
-  // }
-  // getNames();
-  // useEffect(() => {
-  //   const fetchCities = async () => {
-  //     const cityList = await getAllCities();
-  //     setCities(cityList);
-  //     // console.log(cityList);
-  //   };
-  //   fetchCities();
-  // }, []);
-  // console.log(cities)
+  useEffect(() => {
+    const fetchCities = async () => {
+      const cityList = await getAllCities();
+      setCities(cityList);
+    };
+    fetchCities();
+  }, []);
+
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=13d18577b2830ec2f799fbc8d0818acf`;
   let navigate = useNavigate();
   const searchForLocation = (ev) => {
@@ -40,7 +32,6 @@ export default function App() {
       axios.get(url).then((response) => {
         setData(response.data);
         navigate("/results");
-        // console.log(response.data.dt);
       });
       setLocation((prevLocation) => (prevLocation = ""));
     }
@@ -51,13 +42,15 @@ export default function App() {
         location={location}
         setLocation={setLocation}
         searchForLocation={searchForLocation}
-        // render={() => <Navigate to="/results" />}
       />
-
       <Routes>
-        <Route path="/" element={<Home cities={cities} data={data} />}></Route>
+        <Route
+          path="/"
+          element={<Home cities={cities} setCities={setCities} data={data} />}
+        ></Route>
         <Route path="/results" element={<Results data={data} />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

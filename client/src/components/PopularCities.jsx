@@ -1,25 +1,52 @@
-import React, { useState } from 'react'
-import axios from 'axios';
+// Dependencies
+// import React, { useState, useEffect } from "react";
+// import axios from "axios";
 
-export default function PopularCities({cities}) {
-  const [cityWeather, setCityWeather] = useState([]);
+// CSS
+import "../css/PopularCities.css";
 
-  const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
-  const units = "&units=imperial";
-  const API_KEY = "&appid=872d49cf6965f95f7752a583eac1b02c";
+export default function PopularCities({ cities }) {
+  // const [cityWeather, setCityWeather] = useState([]);
 
-const fetchCity = async () => {
-        // let city = cities[0].location;
-        let city = 'Dubai';
-  
-  //       const newCity = await axios.get(`${API_URL}${city}${units}${API_KEY}`);
-  // setCityWeather((prevState) => [...prevState, newCity])
-  // console.log(cityWeather)
+  // useEffect(() => {
+  //   const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
+  //   const units = "&units=imperial";
+  //   const API_KEY = "&appid=13d18577b2830ec2f799fbc8d0818acf";
+  //   // const cityWeather = [];
 
-    };
-// fetchCity();
-
+  //   const setHomeWeathers = (cities) => {
+  //     for (let i = 0; i < cities.length; i++) {
+  //       let city = cities[i].location;
+  //       let newCity = axios.get(`${API_URL}${city}${units}${API_KEY}`).then((response) => {
+  //         cityWeather.push(response.data.main.temp);
+  //         setHomeWeathers(cities);
+  //         setCityWeather(cityWeather);
+  //       }
+  //       //  setCityWeather((prevState) => [...prevState, newCity])
+  //     }, []);
   return (
-    <div>Popular Cities</div>
-  )
+    <div className="home-container">
+      <div className="heading">Popular Cities</div>
+      <section className="city-card">
+        <div className="popular-searches">
+          {cities.map((city, index) => (
+            <div className="city-info" key={index}>
+              <div className="name-temp">
+                <p className="city-name" id="city-name">
+                  {city.location}
+                </p>
+                {/* <p className="location-temp">{cityWeather[index]}°F</p> */}
+              </div>
+              <img
+                className="skyline"
+                id="city-skyline"
+                src={city.image}
+                alt="skyline"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
 }
