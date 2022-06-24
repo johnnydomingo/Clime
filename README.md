@@ -1,15 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Clime! A weather app to give you current and accurate weather data across the globe.
 
-## Completed
+## What's it all about?
 
-- API key is working
-- MedFi/HiFi wireframes completed
+Using Ruby on Rails, I created a back-end API with seeded data that includes a city location and an image of that specific city's skyline. After completing the back-end build, I deployed the production API to Heroku in order to retrieve that data on the front-end. I built the front-end using React.js paired with styled components to achieve my design. I gathered inspiration and color schemes from the Weather widget on my iPhone in order to create a wireframe using Figma. 
 
-## Things to cover:
+For the front-end, I utilized the Open Weather Map API to pull real-time data to display it on the screen. Using the 5 cities from the back-end API, I hoped to show their current temperatures on my home screen. Due to issues with state, the rendering is inconsistent and I have commented out that portion of my code to avoid infinite calls to the API. In addition, I incorporated a search function to be able to retrieve data by searching a city name, which takes you to a Results screen.
 
-- Need to take another look at current backend build. Authentication, GET/SHOW requests working.
-- Think about what functionality should be present on frontend
-
+Given more time, I am confident I could have figured out what the issue is. I have learned a lot during this assessment, including what I already knew and things I need to spend more time on. 
