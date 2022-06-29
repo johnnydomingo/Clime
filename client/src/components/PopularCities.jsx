@@ -1,16 +1,18 @@
 // Dependencies
-import React, { useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
+// import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 // CSS
 import "../css/PopularCities.css";
 
-export default function PopularCities({ cities }) {
+export default function PopularCities({ cities, data }) {
   const [city1, setCity1] = useState([]);
   const [city2, setCity2] = useState([]);
   const [city3, setCity3] = useState([]);
   const [city4, setCity4] = useState([]);
   const [city5, setCity5] = useState([]);
+  // const [location, setLocation] = useState("");
 
   const first_url =
     "https://api.openweathermap.org/data/2.5/weather?q=Dubai&units=imperial&appid=13d18577b2830ec2f799fbc8d0818acf";
@@ -30,32 +32,53 @@ export default function PopularCities({ cities }) {
   useEffect(() => {
     axios.get(first_url).then((response) => {
       setCity1(response.data.main.temp.toFixed());
-      // console.log(response.data);
     });
     axios.get(second_url).then((response) => {
       setCity2(response.data.main.temp.toFixed());
+
       // console.log(response.data);
     });
     axios.get(third_url).then((response) => {
       setCity3(response.data.main.temp.toFixed());
+
       // console.log(response.data);
     });
     axios.get(fourth_url).then((response) => {
       setCity4(response.data.main.temp.toFixed());
+
       // console.log(response.data);
     });
     axios.get(fifth_url).then((response) => {
       setCity5(response.data.main.temp.toFixed());
+
       // console.log(response.data);
     });
   }, []);
+
+  // let navigate = useNavigate();
+  // const searchForLocation = (ev) => {
+  //   // What I want to do is:
+  //   // take the city name and set that as setLocation
+  //   // then use that to query api and open data in results page
+
+  //   // axios.get(first_url).then((response) => {
+  //   //   // setLocation(response.data);
+  //     navigate("/results");
+  //   //   console.log(response.data);
+  //   // });
+  // };
+
   return (
     <div className="home-container">
       <div className="heading">Popular Cities</div>
       <section className="city-card">
         <div className="popular-searches">
           {cities.map((city, index) => (
-            <div className="city-info" key={index}>
+            <div
+              className="city-info"
+              key={index}
+              // onClick={(ev) => searchForLocation()}
+            >
               <div className="name-temp">
                 <p className="city-name" id="city-name">
                   {city.location}
