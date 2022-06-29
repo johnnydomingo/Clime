@@ -11,6 +11,7 @@ import Home from "./screens/Home";
 // Components
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+// import WeatherTest from "./components/WeatherTest";
 
 export default function App() {
   const [cities, setCities] = useState([]);
