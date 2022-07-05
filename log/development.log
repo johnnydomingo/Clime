@@ -9651,3 +9651,18 @@ Processing by CitiesController#index as HTML
 Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 1137)
 
 
+Started GET "/cities" for ::1 at 2022-07-05 13:27:54 -0400
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (3.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 8.6ms | ActiveRecord: 11.1ms | Allocations: 8296)
+
+
+Started GET "/cities" for ::1 at 2022-07-05 13:27:54 -0400
+Processing by CitiesController#index as HTML
+  [1m[36mCity Load (1.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  ↳ app/controllers/cities_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 1.6ms | Allocations: 1139)
+
+
